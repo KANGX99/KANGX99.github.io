@@ -18,6 +18,7 @@ ShowBreadCrumbs: false
     padding: 2px;">RNN architecture</div>
 </center>
 
+
 ### Why can't RNN capture long-term dependencies?
 
 $$
@@ -103,4 +104,4 @@ Now if we want to backpropagate back $k$ time steps, we simply multiply terms in
 $k$ times.The terms here, $\frac{\partial C_t}{\partial C_{t-1}}$, at any time step can take on either values that are greater than 1 or values in the range 
 [0,1].
 
-If we start to converge to zero, we can always set the values of $f_t$ (and other gate values) to be higher in order to bring the value of $\frac{\partial C_t}{\partial C_{t-1}}$ closer to 1, thus preventing
+If we start to converge to zero, we can always set the values of $f_t$ (and other gate values) to be higher in order to bring the value of $\frac{\partial C_t}{\partial C_{t-1}}$ closer to 1, thus preventingsss
