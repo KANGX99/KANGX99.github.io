@@ -15,3 +15,18 @@ iframe {
 .entry-cover img {
     border: 1px solid var(--border);
 }
+
+/* 调整正文内容的字体大小 */
+.post-content p {
+    font-size: 18px; /* 调整为想要的字体大小 */
+}
+
+/* 调整标题的字体大小 */
+.post-content h1,
+.post-content h2 {
+    font-size: 1.6em; /* 调整为想要的字体大小 */
+}
+
+.post-content h3 {
+    font-size: 1.3em; /* 调整为想要的字体大小 */
+}
