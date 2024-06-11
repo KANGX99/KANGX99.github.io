@@ -11,7 +11,7 @@ ShowBreadCrumbs: false
 
 <center>
     <img style="border-radius: 0.3125em;" 
-    src="content\posts\2024-06-11-LSTM\RNN.png">
+    src="images\RNN.png">
     <br>
     <div style="color:orange; display: inline-block;
     color: #999;
