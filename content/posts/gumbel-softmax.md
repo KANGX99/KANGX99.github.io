@@ -1,4 +1,4 @@
-+++
+---
 author: "Kangx"
 title: "How does LSTM avoid gradient explosion or vanish?"
 date: "2024-06-11"
@@ -7,4 +7,4 @@ ShowToc: true
 UseHugoToc: true
 TocOpen: false
 ShowBreadCrumbs: false
-+++
+---
